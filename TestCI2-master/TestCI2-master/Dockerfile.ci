@@ -1,0 +1,6 @@
+From openjdk:latest
+
+copy ./target /
+
+CMD ["java", "-jar", "./TestCI-1.0-SNAPSHOT.jar"]
+
